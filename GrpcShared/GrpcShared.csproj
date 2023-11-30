@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>11.0</LangVersion>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.Reactive" Version="6.0.0" />
+      <PackageReference Include="System.ServiceModel.Primitives" Version="4.10.3" />
+    </ItemGroup>
+
+</Project>
